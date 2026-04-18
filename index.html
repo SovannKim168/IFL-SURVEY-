@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>លទ្ធផលការស្ទង់មតិអំពីការប្រើប្រាស់ AI</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f0f4f8;
+            padding: 2rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #2d3748;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .chart-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .chart-card:hover {
+            transform: translateY(-5px);
+        }
+        .chart-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .chart-title {
+            padding: 1rem;
+            background-color: #4a5568;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .nav-btn {
+            padding: 0.75rem 1.5rem;
+            background-color: #4299e1;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .nav-btn:hover {
+            background-color: #3182ce;
+        }
+        @media (max-width: 600px) {
+            .chart-grid {
+                grid-template-columns: 1fr;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>លទ្ធផលការស្ទង់មតិអំពីការប្រើប្រាស់ AI</h1>
+
+    <div class="nav-buttons">
+        <a href="#chart1" class="nav-btn">1. ផលប៉ះពាល់នៃ AI</a>
+        <a href="#chart2" class="nav-btn">2. ការគិតរបស់មនុស្ស</a>
+        <a href="#chart3" class="nav-btn">3. សារៈសំខាន់នៃ AI</a>
+        <a href="#chart4" class="nav-btn">4. ភាពងាយស្រួលពី AI</a>
+        <a href="#chart5" class="nav-btn">5. ផលវិបាកនៃ AI</a>
+        <a href="#chart6" class="nav-btn">6. ការប្រើប្រាស់ AI</a>
+        <a href="#chart7" class="nav-btn">7. ដោះស្រាយបញ្ហា</a>
+        <a href="#chart8" class="nav-btn">8. ការគ្រប់គ្រងការប្រើប្រាស់</a>
+        <a href="#chart9" class="nav-btn">9. ការជឿទុកចិត្តលើ AI</a>
+        <a href="#chart10" class="nav-btn">10. ភាពត្រឹមត្រូវនៃចម្លើយ AI</a>
+        <a href="#chart11" class="nav-btn">11. ការកាត់បន្ថយការប្រើប្រាស់ AI</a>
+        <a href="#chart12" class="nav-btn">12. ការកំណត់ការប្រើប្រាស់ AI</a>
+        <a href="#chart13" class="nav-btn">13. ផលប៉ះពាល់បើគ្មាន AI</a>
+    </div>
+
+    <div class="chart-grid">
+        <!-- Chart 1 -->
+        <div class="chart-card" id="chart1">
+            <div class="chart-title">1. ការពឹងផ្អែកលើ AI ច្រើនពេក នឹងបង្កផលប៉ះពាល់អ្វីខ្លះ?</div>
+            <img src="images/imagecopy.png" alt="Chart 1">
+        </div>
+        <!-- Chart 2 -->
+        <div class="chart-card" id="chart2">
+            <div class="chart-title">2. តើកំណើននៃការប្រើប្រាស់AIច្រើននឹងធ្វើឱ្យមនុស្សបាត់បង់ការគិតដែរឬទេ?</div>
+            <img src="images/imagecopy2.png" alt="Chart 2">
+        </div>
+        <!-- Chart 3 -->
+        <div class="chart-card" id="chart3">
+            <div class="chart-title">3. តើអ្នកគិតថាAIមានសារៈសំខាន់សម្រាប់ជីវិតប្រចាំថ្ងៃដែរឬទេ?</div>
+            <img src="images/imagecopy3.png" alt="Chart 3">
+        </div>
+        <!-- Chart 4 -->
+        <div class="chart-card" id="chart4">
+            <div class="chart-title">4. តើAIបានផ្តល់ភាពងាយស្រួលដល់អ្នកអ្វីខ្លះ?</div>
+            <img src="images/imagecopy4.png" alt="Chart 4">
+        </div>
+        <!-- Chart 5 -->
+        <div class="chart-card" id="chart5">
+            <div class="chart-title">5. តើអ្នកគិតថា AI មានផលវិបាកលើមនុស្សយ៉ាងដូចម្តេច?</div>
+            <img src="images/imagecopy5.png" alt="Chart 5">
+        </div>
+        <!-- Chart 6 -->
+        <div class="chart-card" id="chart6">
+            <div class="chart-title">6. តើអ្នកគិតថា មនុស្សនាសម័យ ឥឡូវប្រើប្រាស់Aiច្រើនដែរឬទេ?</div>
+            <img src="images/imagecopy6.png" alt="Chart 6">
+        </div>
+        <!-- Chart 7 -->
+        <div class="chart-card" id="chart7">
+            <div class="chart-title">7. នៅពេលជួបបញ្ហា អ្នកជ្រើសរើសវិធីណាមុនគេ?</div>
+            <img src="images/imagecopy7.png" alt="Chart 7">
+        </div>
+        <!-- Chart 8 -->
+        <div class="chart-card" id="chart8">
+            <div class="chart-title">8. តើអ្នកគិតថាការកែប្រែទម្លាប់ពីពឹងផ្អែកលើ AI គឺជារឿងដែលងាយស្រួលដែរឬទេ?</div>
+            <img src="images/imagecopy8.png" alt="Chart 8">
+        </div>
+        <!-- Chart 9 -->
+        <div class="chart-card" id="chart9">
+            <div class="chart-title">9. តើអ្នកពឹងផ្អែកលើបញ្ញាសិប្បនិម្មិត (AI) ប៉ុន្មានដើម្បីធ្វើការសម្រេចចិត្តដោះស្រាយបញ្ហា ឬ សកម្មភាពរបស់អ្នក។</div>
+            <img src="images/imagecopy9.png" alt="Chart 9">
+        </div>
+        <!-- Chart 10 -->
+        <div class="chart-card" id="chart10">
+            <div class="chart-title">10. តើចម្លើយដែលAi បានផ្តល់ឱ្យអ្នក អ្នកយល់ថាចម្លើយនោះល្អិតល្អន់ដែរឬទេ?</div>
+            <img src="images/imagecopy10.png" alt="Chart 10">
+        </div>
+        <!-- Chart 11 -->
+        <div class="chart-card" id="chart11">
+            <div class="chart-title">11. ដើម្បីកាត់បន្ថយកំណើននៃការប្រើប្រាស់Aiតើយើងត្រូវធ្វើដោយរបៀបណា?</div>
+            <img src="images/imagecopy11.png" alt="Chart 11">
+        </div>
+        <!-- Chart 12 -->
+        <div class="chart-card" id="chart12">
+            <div class="chart-title">12. តើគួរតែផ្លាស់ប្តូរឬទេ បើមនុស្សពឹងផ្អែក (AI) ច្រើនពេក?</div>
+            <img src="images/imagecopy12.png" alt="Chart 12">
+        </div>
+        <!-- Chart 13 -->
+        <div class="chart-card" id="chart13">
+            <div class="chart-title">13. តើអ្នកគិតថាវាប៉ះពាល់ដល់ជីវភាពប្រចាំថ្ងៃបើមិនមានAI?</div>
+            <img src="images/imagecopy13.png" alt="Chart 13">
+        </div>
+    </div>
+</body>
+</html>
